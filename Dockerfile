@@ -7,4 +7,4 @@ RUN yum install -y python27
 RUN yum install -y wget
 COPY cmd.sh /
 
-CMD ["./cmd.sh"]
+CMD ["/cmd.sh"]
