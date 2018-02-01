@@ -1,5 +1,6 @@
-#!/bin/bash set -e
+#!/bin/bash -xeu
 
+echo "debug echo"
 scl enable python27 bash
 wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-180.0.0-linux-x86_64.tar.gz?hl=ja
 tar -zxvf google-cloud-sdk-180.0.0-linux-x86_64.tar.gz\?hl\=ja
